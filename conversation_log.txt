@@ -1,0 +1,187 @@
+[2026-06-19 18:12:52]
+User: hello
+Bot: Hello! How can I help you?
+
+[2026-06-19 18:13:01]
+User: tine
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 18:13:06]
+User: time
+Bot: The time is 06:13 PM
+
+[2026-06-19 18:13:11]
+User: date
+Bot: Today is 19 June 2026
+
+[2026-06-19 18:13:16]
+User: bye
+Bot: Goodbye! Have a nice day
+
+[2026-06-19 19:04:20]
+User: hello
+Bot: Hello! How can I help you?
+
+[2026-06-19 19:05:34]
+User: time
+Bot: The time is 07:05 PM
+
+[2026-06-19 19:07:19]
+User: today date
+Bot: Today is 19 June 2026
+
+[2026-06-19 19:07:27]
+User: good
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:07:38]
+User: goodbye
+Bot: Goodbye! Have a nice day
+
+[2026-06-19 19:21:19]
+User: who is the president of india
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:21:33]
+User: please open youtube
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:22:24]
+User: hello
+Bot: Hello! How can I help you?
+
+[2026-06-19 19:26:07]
+User: bye
+Bot: Goodbye! Have a nice day
+
+[2026-06-19 19:28:38]
+User: hello
+Bot: Hello! How can I help you?
+
+[2026-06-19 19:28:47]
+User: open youtube
+Bot: Opening YouTube
+
+[2026-06-19 19:29:03]
+User: open google
+Bot: Opening Google
+
+[2026-06-19 19:29:18]
+User: open instagram
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:31:53]
+User: open instagram
+Bot: Opening instagram
+
+[2026-06-19 19:32:16]
+User: open netflix
+Bot: Opening netflix
+
+[2026-06-19 19:32:34]
+User: open whatsapp
+Bot: Opening whatsapp
+
+[2026-06-19 19:32:57]
+User: are you
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:33:05]
+User: how
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:33:12]
+User: how
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:33:21]
+User: who are
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:33:32]
+User: who are you
+Bot: I am your AI Voice Assistant.
+
+[2026-06-19 19:33:40]
+User: who are you
+Bot: I am your AI Voice Assistant.
+
+[2026-06-19 19:33:49]
+User: how are you
+Bot: I am fine. Thank you for asking.
+
+[2026-06-19 19:33:57]
+User: what is
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:34:04]
+User: what is
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:34:17]
+User: what is your name
+Bot: Sorry, I did not understand that.
+
+[2026-06-19 19:39:07]
+User: bye
+Bot: Goodbye! Have a nice day
+
+[2026-06-19 19:49:11]
+User: who is the president of india
+Bot: Sorry, I could not connect to Gemini AI.
+
+[2026-06-19 19:52:20]
+User: president of india
+Bot: 404 models/gemini-1.5-flash is not found for API version v1beta, or is not supported for generateContent. Call ModelService.ListModels to see the list of available models and their supported methods.
+
+[2026-06-19 19:55:55]
+User: president of
+Bot: 429 You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. 
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_input_token_count, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 0, model: gemini-2.0-flash
+Please retry in 4.08859984s. [links {
+  description: "Learn more about Gemini API quotas"
+  url: "https://ai.google.dev/gemini-api/docs/rate-limits"
+}
+, violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_input_token_count"
+  quota_id: "GenerateContentInputTokensPerModelPerMinute-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerMinutePerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+violations {
+  quota_metric: "generativelanguage.googleapis.com/generate_content_free_tier_requests"
+  quota_id: "GenerateRequestsPerDayPerProjectPerModel-FreeTier"
+  quota_dimensions {
+    key: "model"
+    value: "gemini-2.0-flash"
+  }
+  quota_dimensions {
+    key: "location"
+    value: "global"
+  }
+}
+, retry_delay {
+  seconds: 4
+}
+]
+
